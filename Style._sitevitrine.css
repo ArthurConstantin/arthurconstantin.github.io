@@ -1,0 +1,236 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    Background-color: rgb(41, 33, 65);
+    margin: 0;
+}
+
+header, footer {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    box-shadow: 30px 10px 10px rgb(0, 0, 0);
+
+
+}
+
+div.hautdepage > p {
+    font-size: 125%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: none;
+}
+
+
+.hautdepage {
+    opacity: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 100px; left: 715px;
+    box-shadow: 15px 10px 10px black;
+    z-index: 1;
+}
+
+.photo_fond {
+    width: 100%;
+    
+    opacity: 90%;
+}
+
+p:active {
+    color: aliceblue;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+.test {
+    position: absolute;
+    top: 400px; left: 300px;
+    height: 550px;
+    width: 700px
+    
+}
+
+h1 {
+
+    color: aliceblue;
+    top: 390px; left: 250px;
+    font-size: 600%;
+    text-align: left;
+}
+
+.Arthur {
+    position: absolute;
+    top: 360px; width: 600px; height: 400px; z-index: 2;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 600%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.Soustitre {
+    background: linear-gradient(deeppink, violet);
+    width: 250px;  
+    height: 60px;
+    border-radius: 30px;
+    top: 715px; left: 250px; z-index: 2; position: absolute;
+}
+
+.photopres {
+    width: 900px;
+    height: 700px;
+    padding: 100px;
+   
+}
+
+.Présentation {
+    top: 1100px; left: 250px; z-index: 2; position: absolute;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 170%;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    display: block;
+}
+
+
+
+
+.encore {
+    position: absolute;
+    top: 1330px; left: 1050px; z-index: 2;
+}
+
+a {
+    color: black;
+}
+
+
+
+
+.presrose {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 170%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin: auto;
+    top: 725px; left: 270px; z-index: 3; position: absolute;
+}
+
+div.tennis{
+    background-image: linear-gradient(rgb(221, 255, 0), rgb(130, 238, 238));
+    
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    
+}
+
+div.graphisme{
+    background-image: linear-gradient(orange, violet); 
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;  
+    text-align: end; 
+}
+
+
+
+
+div.esport{
+    background-image: linear-gradient(rgb(60, 206, 255), rgb(136, 67, 240));
+    
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    text-align: end;
+}
+    
+
+
+
+.ImgESP {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.Imgtennis {
+    width: 400px;
+    height: 400px;
+}
+
+
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 190%;
+    text-align: center
+
+}
+
+p{
+    text-align: center;
+    color: black;
+    font-size: 150%;
+}
+
+footer {
+    background: white;
+}
+
+.autrement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+
+.Logofin {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    
+    margin: auto;
+}
+
+h5 {
+    color: aliceblue;
+    font-size: 600%;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 40px;
+
+}
+
+div.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px; 
+}
