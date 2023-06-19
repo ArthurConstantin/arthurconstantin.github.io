@@ -21,7 +21,7 @@ div.hautdepage > p {
 
 
 .hautdepage {
-    opacity: 80%;
+    opacity: 90%;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px;
@@ -213,9 +213,7 @@ footer {
 .Logofin {
     width: 25px;
     height: 25px;
-    display: flex;
-    
-    margin: auto;
+    padding-left: 10px;
 }
 
 h5 {
@@ -223,7 +221,7 @@ h5 {
     font-size: 600%;
     color: rgb(255, 255, 255);
     margin: auto;
-    padding: 40px;
+    padding: 200px;
 
 }
 
@@ -232,5 +230,23 @@ div.contact {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 100px; 
+    padding: 1000px; 
+}
+
+.Contacttxt {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 900px;
+    top: 3150px;
+}
+
+div.mail {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: absolute;
+    left: 200px;
+    top: 3400PX;
+    width: 200px;
+    height: 80px;
 }
