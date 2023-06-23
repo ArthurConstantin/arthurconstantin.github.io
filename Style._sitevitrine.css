@@ -308,3 +308,11 @@ div.modal {
 .note {
     padding: 3%;
 }
+
+.Arthurdiv {
+    transition: ease 2s;
+}
+
+.Arthurdiv:active {
+    transform: translateX(300px);
+}
